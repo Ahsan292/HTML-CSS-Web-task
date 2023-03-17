@@ -1,0 +1,1123 @@
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
+ .divider {
+   display: none;
+ }
+
+ /* ====================HEADER==================== */
+ .header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50px 70px;
+ }
+
+ .header .logo {
+   width: 70px;
+   flex-shrink: 0;
+   margin-right: 120px;
+ }
+
+ .header .logo img {
+   width: 100%
+ }
+
+ .header .topnav {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex: 1;
+ }
+
+ .header .topnav a {
+   float: left;
+   display: block;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   color: #222222;
+   padding: 0px 25px;
+   text-decoration: none;
+   text-align: center;
+   margin: 0;
+ }
+
+ .header .topnav a:hover {
+   color: #381DDB;
+ }
+
+ .header .topnav a.active {
+   color: #381DDB;
+ }
+
+ .header .topnav a.btn {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   color: #381DDB;
+   background: transparent;
+   padding: 8px 16px;
+   text-decoration: none;
+   margin: 0;
+   display: block;
+ }
+
+ .header .topnav a.btn:last-child {
+   border: 1px solid #381DDB;
+   margin: 0 0 0 20px;
+ }
+
+ .header .topnav a.btn:hover {
+   background: #381DDB;
+   color: #ffffff;
+ }
+
+ .header .topnav .icon {
+   display: none;
+ }
+
+
+
+ /* ====================SUBSCRIBE==================== */
+ .subscribe {
+   margin: 0px auto;
+   padding: 0 0 60px 0;
+   width: 1080px;
+ }
+
+ .subscribe h1 {
+   width: 832px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 68px;
+   text-align: center;
+   text-transform: capitalize;
+   color: #000000;
+   margin: 0 auto 40px auto;
+   text-shadow: 0px 2px 0px rgba(34, 34, 34, 0.1);
+ }
+
+ .subscribe p {
+   width: 585px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   text-align: center;
+   color: #222222;
+   margin: 0 auto 56px auto;
+   letter-spacing: 0.04em;
+ }
+
+ .subscribe .subsBtn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .subsBtn input {
+   font-family: 'Raleway', sans-serif;
+   box-sizing: border-box;
+   width: 335px;
+   border: 1px solid #A3A3A3;
+   border-radius: 4px;
+   padding: 15px 40px;
+   font-weight: 400;
+   font-size: 16px;
+   color: #000000;
+   margin-right: 24px;
+ }
+
+ .subsBtn input::placeholder {
+   font-weight: 400;
+   font-size: 16px;
+   color: #a3a3a3;
+ }
+
+ .subsBtn button {
+   width: 150px;
+   height: 50px;
+   background: #381DDB;
+   border-radius: 4px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   border: none;
+ }
+
+ /* ====================SOLUTIONS==================== */
+ .solutions {
+   margin: 0px auto;
+   padding: 60px 0;
+   width: 1080px;
+ }
+
+ .solutions h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 44px;
+   text-align: center;
+   color: #222222;
+   margin-bottom: 40px;
+ }
+
+ .solutions p {
+   width: 970px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: rgba(34, 34, 34, 0.7);
+   margin: 0 auto 60px auto;
+ }
+
+ .solutions .cards {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .solutions .cards .card {
+   /* width: 310px; */
+   width: 24%;
+   border: 1px solid #381DDB;
+   padding: 35px;
+ }
+
+ .solutions .cards .card img {
+   width: 70px;
+   margin-bottom: 43px;
+ }
+
+ .solutions .cards .card h3 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+   font-size: 24px;
+   line-height: 38px;
+   color: #222222;
+   margin-bottom: 20px;
+ }
+
+ .solutions .cards .card p {
+   width: 220px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #222222;
+   opacity: 0.7;
+   margin: 0 0 47px 0;
+   text-align: left;
+ }
+
+ .solutions .cards .card a {
+   color: #381DDB;
+   text-decoration: none;
+ }
+
+ .solutions .cards .card.active {
+   background: #381DDB;
+ }
+
+ .solutions .cards .card.active h3 {
+   color: #ffffff;
+ }
+
+ .solutions .cards .card.active p {
+   color: #ffffff;
+ }
+
+ .solutions .cards .card.active a {
+   color: #ffffff;
+ }
+
+ /* ====================SIGN-UP==================== */
+ .signUp {
+   position: relative;
+   padding: 0;
+   margin: 70px 0;
+ }
+
+ .signUp img {
+   width: 100%;
+ }
+
+ .signUp .cont {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 1007px;
+   text-align: center;
+ }
+
+ .signUp .cont .inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 100px;
+ }
+
+ .signUp .cont .inner h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+   font-size: 64px;
+   line-height: 78px;
+   text-align: center;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   margin-bottom: 16px;
+ }
+
+ .signUp .cont .inner p {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   margin: 0;
+ }
+
+ .signUp .cont button {
+   width: 150px;
+   height: 50px;
+   background: #381DDB;
+   border-radius: 4px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   border: none;
+ }
+
+ /* ====================TECHONOLOGY==================== */
+ .technology {
+   margin: 0px auto;
+   padding: 60px 0 190px 0;
+   width: 1080px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .technology img {
+   width: 490px;
+   margin-right: 60px;
+ }
+
+ .technology h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 44px;
+   color: #222222;
+   margin-bottom: 32px;
+ }
+
+ .technology p {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #222222;
+   opacity: 0.7;
+   margin-bottom: 60px;
+ }
+
+ .technology ul {
+   margin-bottom: 48px;
+   padding-left: 20px;
+ }
+
+ .technology ul li {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 32px;
+   color: #222222;
+   opacity: 0.7;
+ }
+
+ .technology ul li::marker {
+   color: #381DDB;
+   font-size: 20px;
+   margin-left: 10px;
+ }
+
+ .technology a {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   color: #381DDB;
+   text-decoration: none;
+ }
+
+ .technology a i {
+   margin-left: 10px;
+ }
+
+ /* ====================FOOTER==================== */
+ footer {
+   background: rgba(34, 34, 34, 0.03);
+   padding: 60px 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ footer .logo {
+   width: 400px;
+   margin-right: 120px;
+ }
+
+ footer .logo img {
+   width: 70px;
+   margin-bottom: 30px;
+ }
+
+ footer p {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 18px;
+   color: #222222;
+   opacity: 0.3;
+   margin: 0;
+ }
+
+ footer p.desktop {
+   display: block;
+ }
+
+ footer p.mobile {
+   display: none;
+ }
+
+ footer .menuIcon {
+   flex: 1;
+   display: block;
+ }
+
+ footer .menu {
+   position: relative;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-bottom: 40px;
+ }
+
+ footer .menu div {
+   display: flex;
+   align-items: center;
+ }
+
+ footer .menu a {
+   display: block;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   color: #222222;
+   padding: 0px 20px 0 0;
+   text-decoration: none;
+   text-align: center;
+   margin: 0;
+ }
+
+ footer .menu a:hover {
+   color: #381DDB;
+ }
+
+ footer .menu a.active {
+   color: #381DDB;
+ }
+
+ footer .menu a.btn {
+   font-family: 'Montserrat', sans-serif;
+   width: 61px;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   color: #381DDB;
+   background: transparent;
+   padding: 8px;
+   text-decoration: none;
+   display: block;
+   margin: 0 0 0 20px;
+ }
+
+ footer .menu a.btn:last-child {
+   border: 1px solid #381DDB;
+ }
+
+ footer .menu a.btn:hover {
+   background: #381DDB;
+   color: #ffffff;
+ }
+
+ footer .icon {
+   position: relative;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   flex: 1;
+ }
+
+ footer .icon a {
+   display: block;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 20px;
+   color: #222222;
+   padding: 0 0 0 40px;
+   text-decoration: none;
+   text-align: center;
+   margin: 0;
+ }
+
+
+ @media (max-width: 1200px) {
+
+   /* ====================SUBSCRIBE==================== */
+   .subscribe {
+     width: 800px;
+   }
+
+   /* ====================SOLUTIONS==================== */
+   .solutions {
+     width: 800px;
+   }
+
+   .solutions h1 {
+     font-size: 30px;
+     line-height: 45px;
+     margin-bottom: 30px;
+   }
+
+   .solutions p {
+     width: auto;
+     font-size: 16px;
+     line-height: 24px;
+     margin: 0 auto 60px auto;
+   }
+
+   .solutions .cards {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .solutions .cards .card {
+     width: 27%;
+     padding: 20px;
+   }
+
+   .solutions .cards .card img {
+     width: 70px;
+     margin-bottom: 30px;
+   }
+
+   .solutions .cards .card h3 {
+     font-size: 24px;
+     line-height: 30px;
+     margin-bottom: 20px;
+   }
+
+   .solutions .cards .card p {
+     width: auto;
+     font-size: 16px;
+     line-height: 24px;
+     margin: 0 0 30px 0;
+   }
+
+   /* ====================SIGN-UP==================== */
+   .signUp {
+     margin: 70px 0;
+   }
+
+   .signUp .cont {
+     width: 800px;
+   }
+
+   .signUp .cont .inner {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 50px;
+   }
+
+   .signUp .cont .inner h1 {
+     font-size: 64px;
+     line-height: 78px;
+     margin: 0 0 16px 0;
+   }
+
+   .signUp .cont .inner p {
+     font-size: 16px;
+     line-height: 20px;
+   }
+
+   /* ====================TECHONOLOGY==================== */
+   .technology {
+     margin: 0px auto;
+     padding: 60px 0 150px 0;
+     width: 800px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .technology img {
+     width: 400px;
+     margin-right: 40px;
+   }
+
+   .technology h1 {
+     font-size: 30px;
+     line-height: 40px;
+     margin-bottom: 25px;
+   }
+
+   .technology p {
+     font-size: 16px;
+     line-height: 24px;
+     margin-bottom: 40px;
+   }
+
+   .technology ul {
+     margin-bottom: 40px;
+     padding-left: 20px;
+   }
+
+   .technology ul li {
+     font-size: 16px;
+     line-height: 32px;
+   }
+
+   /* ====================FOOTER==================== */
+   footer {
+     padding: 60px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   footer .logo {
+     width: 400px;
+     margin-right: 60px;
+   }
+
+   footer .logo img {
+     width: 70px;
+     margin-bottom: 30px;
+   }
+
+   footer p {
+     font-size: 12px;
+     line-height: 18px;
+   }
+
+   footer .menuIcon {
+     flex: 1;
+   }
+
+   footer .menu {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     margin-bottom: 40px;
+   }
+
+   footer .menu div {
+     display: flex;
+     align-items: center;
+   }
+
+   footer .icon {
+     position: relative;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     flex: 1;
+   }
+
+   footer .icon a {
+     font-size: 25px;
+     padding: 0 0 0 40px;
+   }
+
+ }
+
+ @media (max-width: 991.98px) {
+
+   /* ====================HEADER==================== */
+   .header {
+     padding: 30px;
+   }
+
+   .header .logo {
+     width: 70px;
+     flex-shrink: 0;
+     margin-right: 30px;
+   }
+
+   .header .topnav a {
+     padding: 0px 15px;
+   }
+
+   .header .topnav a.btn:last-child {
+     margin: 0 0 0 15px;
+   }
+
+   /* ====================SUBSCRIBE==================== */
+   .subscribe {
+     width: 700px;
+     padding: 0 0 30px 0;
+   }
+
+   .subscribe h1 {
+     width: auto;
+     font-size: 46px;
+     line-height: 60px;
+     margin: 0 auto 30px auto;
+   }
+
+   .subscribe p {
+     width: auto;
+     font-size: 18px;
+     line-height: 28px;
+     margin: 0 auto 50px auto;
+   }
+
+   /* ====================SOLUTIONS==================== */
+   .solutions {
+     width: 700px;
+     padding: 30px 0;
+   }
+
+   .solutions h1 {
+     font-size: 28px;
+     line-height: 36px;
+     margin-bottom: 30px;
+   }
+
+   .solutions p {
+     font-size: 14px;
+     line-height: 20px;
+     margin: 0 auto 30px auto;
+   }
+
+   .solutions .cards {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .solutions .cards .card {
+     width: 27%;
+     padding: 20px;
+   }
+
+   .solutions .cards .card img {
+     width: 70px;
+     margin-bottom: 23px;
+   }
+
+   .solutions .cards .card h3 {
+     font-size: 22px;
+     line-height: 34px;
+     margin-bottom: 10px;
+   }
+
+   .solutions .cards .card p {
+     width: auto;
+     font-size: 14px;
+     line-height: 20px;
+     margin: 0 0 20px 0;
+   }
+
+   /* ====================SIGN-UP==================== */
+   .signUp {
+     margin: 30px 0;
+   }
+
+   .signUp .cont {
+     width: 600px;
+   }
+
+   .signUp .cont .inner {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 50px;
+   }
+
+   .signUp .cont .inner h1 {
+     font-size: 36px;
+     line-height: 43px;
+     margin: 0 0 4px 0;
+   }
+
+   .signUp .cont .inner p {
+     font-size: 12px;
+     line-height: 14px;
+   }
+
+   /* ====================TECHONOLOGY==================== */
+   .technology {
+     margin: 0px auto;
+     padding: 30px 0 70px 0;
+     width: 700px;
+     display: flex;
+     flex-direction: column-reverse;
+   }
+
+   .technology img {
+     width: 100%;
+     margin-right: 0px;
+     margin-top: 40px;
+   }
+
+   .technology h1 {
+     font-size: 28px;
+     line-height: 36px;
+     margin-bottom: 20px;
+   }
+
+   .technology p {
+     font-size: 14px;
+     line-height: 20px;
+     margin-bottom: 20px;
+   }
+
+   .technology ul {
+     margin-bottom: 20px;
+     padding-left: 20px;
+   }
+
+   .technology ul li {
+     font-size: 14px;
+     line-height: 20px;
+   }
+
+   /* ====================FOOTER==================== */
+   footer {
+     padding: 30px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   footer .logo {
+     width: 400px;
+     margin-right: 40px;
+   }
+
+   footer .logo img {
+     width: 70px;
+     margin-bottom: 30px;
+   }
+
+
+   footer .menuIcon {
+     flex: 1;
+   }
+
+   footer .menu {
+     display: block;
+     margin-bottom: 0px;
+   }
+
+   footer .menu div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 20px;
+   }
+
+   footer .icon {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex: 1;
+   }
+
+   footer .icon a {
+     font-size: 25px;
+     padding: 0 0 0 40px;
+   }
+ }
+
+ @media (max-width: 767.98px) {
+
+   /* ====================HEADER==================== */
+   .header .topnav a:not(.icon) {
+     display: none;
+   }
+
+   .header .topnav a.icon {
+     float: right;
+     display: block;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 20px;
+     color: #381DDB;
+     background: transparent;
+     padding: 8px 16px;
+     text-decoration: none;
+     margin: 0;
+     border: 1px solid #381DDB;
+   }
+
+   .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: start;
+     padding: 30px;
+   }
+
+   .header .topnav {
+     display: flex;
+     align-items: center;
+     flex: 1;
+     flex-direction: row-reverse;
+   }
+
+   .header .topnav.responsive {
+     position: absolute;
+     top: 60px;
+     width: 73%;
+     background: #ffffff;
+     margin: 0 auto;
+     z-index: 9;
+     padding: 20px;
+     display: block;
+   }
+
+   .header .topnav.responsive .icon {
+     position: absolute;
+     right: 0px;
+     top: -40px;
+   }
+
+   .header .topnav.responsive a {
+     float: none;
+     display: block;
+     text-align: center;
+     font-size: 16px;
+     margin: 10px auto;
+   }
+
+   .header .topnav.responsive a.btn {
+     width: 100px;
+     text-align: center;
+     margin: 10px auto;
+   }
+
+   .header .topnav a.btn {
+     margin-left: 0px;
+   }
+
+   /* ====================SUBSCRIBE==================== */
+   .subscribe {
+     width: 80%;
+     padding: 0 0 30px 0;
+   }
+
+   .subscribe h1 {
+     width: auto;
+     font-size: 36px;
+     line-height: 44px;
+     margin: 0 auto 16px auto;
+   }
+
+   .subscribe p {
+     width: auto;
+     font-size: 14px;
+     line-height: 20px;
+     margin: 0 auto 40px auto;
+   }
+
+   .subscribe .subsBtn {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+
+   .subsBtn input {
+     margin-right: 0px;
+     margin-bottom: 16px;
+   }
+
+   /* ====================SOLUTIONS==================== */
+   .solutions {
+     width: 80%;
+     padding: 30px 0;
+   }
+
+   .solutions h1 {
+     font-size: 28px;
+     line-height: 36px;
+     margin-bottom: 20px;
+   }
+
+   .solutions p {
+     font-size: 14px;
+     line-height: 20px;
+     margin: 0 auto 24px auto;
+   }
+
+   .solutions .cards {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .solutions .cards .card {
+     width: 80%;
+     padding: 30px;
+     margin: 10px auto;
+   }
+
+   /* ====================SIGN-UP==================== */
+   .signUp {
+     margin: 30px 0;
+   }
+
+   .signUp img {
+     height: 500px;
+     object-fit: cover;
+   }
+
+   .signUp .cont {
+     width: 80%;
+   }
+
+   .signUp .cont .inner {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 40px;
+   }
+
+   .signUp .cont .inner h1 {
+     font-size: 36px;
+     line-height: 43px;
+     margin: 0 0 4px 0;
+   }
+
+   .signUp .cont .inner p {
+     font-size: 12px;
+     line-height: 14px;
+     margin-bottom: 40px;
+   }
+
+   /* ====================TECHONOLOGY==================== */
+   .technology {
+     margin: 0px auto;
+     padding: 30px 0 70px 0;
+     width: 80%;
+     display: flex;
+     flex-direction: column-reverse;
+   }
+
+   .technology img {
+     width: 100%;
+     margin-right: 0px;
+     margin-top: 40px;
+   }
+
+   .technology h1 {
+     font-size: 28px;
+     line-height: 36px;
+     margin-bottom: 20px;
+   }
+
+   .technology p {
+     font-size: 14px;
+     line-height: 20px;
+     margin-bottom: 20px;
+   }
+
+   .technology ul {
+     margin-bottom: 20px;
+     padding-left: 20px;
+   }
+
+   .technology ul li {
+     font-size: 14px;
+     line-height: 20px;
+   }
+
+   /* ====================FOOTER==================== */
+   footer {
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+   }
+
+   footer .logo {
+     width: 400px;
+     margin-right: 0px;
+     margin-bottom: 20px;
+   }
+
+   footer p.desktop {
+     display: none;
+   }
+
+   footer .menu a {
+     padding: 0 10px;
+   }
+
+   footer .menu a.btn {
+     margin: 0 10px;
+   }
+
+   footer .icon {
+     margin-bottom: 25px;
+   }
+
+   footer .icon a {
+     font-size: 25px;
+     padding: 0 20px;
+   }
+
+   footer p.mobile {
+     display: block;
+   }
+
+   .divider {
+     display: block;
+     width: 80%;
+     margin: 40px auto;
+   }
+ }
